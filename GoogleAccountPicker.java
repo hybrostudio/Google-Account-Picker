@@ -1,11 +1,11 @@
 /**
 
 This work is licensed under the Creative Commons 3.0 License.
-This work is based on puravidaapps Extension, enjoy!
+This work is based on Taifun Extension, enjoy!
 
 
 Authors:
-- puravida apps
+- Taifun
 - Hybro Team :
 - Samuel
 
