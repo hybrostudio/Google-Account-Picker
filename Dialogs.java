@@ -1,12 +1,22 @@
 /**
-This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
-Authors:Vishwas Adiga
-        NMD
-Version 3
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+This work is based on Vishwas Dialog Extension, enjoy!
+
+
+Authors:
+- Vishwas Adiga
+- NMD
+- Hybro Team :
+- Shivendra
+- Samuel
+- Hei
+- Olatunji
+
+Version 4
 **/
 
-package com.vishwas;
+package io.hybro.dialogs;
 
 import com.google.appinventor.components.runtime.*;
 
@@ -71,9 +81,9 @@ import android.os.Environment;
 import java.io.ByteArrayOutputStream;
 
 
-@DesignerComponent(version = 3,
+@DesignerComponent(version = 4,
     category = ComponentCategory.EXTENSION,
-    description = "An extension to show dialogs and pickers. Jointly created by Vishwas Adiga and NMD (www.nmd-apps.jimdo.com/) and licensed under the Creative Commons Attribution-ShareAlike 4.0 Unported License.",
+    description = "A component to show dialogs and pickers. Redistributed by Hybro Team, Orginally created by Vishwas Adiga and NMD licensed under the Creative Commons Attribution-ShareAlike 4.0 Unported License.",
     nonVisible = true,
     iconName = "https://firebasestorage.googleapis.com/v0/b/extensions-3caad.appspot.com/o/Dialog.png?alt=media&token=caf8ec0d-a1bd-4615-90f1-3521a30c9be1")
 
