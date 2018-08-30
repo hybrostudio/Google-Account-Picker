@@ -1,7 +1,11 @@
 /**
 
 This work is licensed under the Creative Commons 3.0 License.
-This work is based on Taifun Extension, enjoy!
+This work by Pura Vida Apps(https://puravidaapps.com/accountmanager.php#pick) is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 Unported License with attribution.
+
+This work by Pura Vida Apps is redistributed by Hybro Team with modification and licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 Unported License with attribution.
 
 
 Authors:
