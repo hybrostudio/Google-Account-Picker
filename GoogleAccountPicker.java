@@ -43,8 +43,7 @@ import com.google.appinventor.components.runtime.EventDispatcher;
 import com.google.appinventor.components.runtime.util.ErrorMessages;
 
 @DesignerComponent(version = TaifunGoogleAccount.VERSION,
-    description = "Extension to pick a Google Account. " +
-        "Version 1 as of 2016-12-05 for App Inventor version nb153 and Companion version 2.39.",
+    description = "A Simple Google Account Picker for users to sign in using Google Account",
     category = ComponentCategory.EXTENSION,
     nonVisible = true,
     iconName = "https://puravidaapps.com/images/taifun16.png")
