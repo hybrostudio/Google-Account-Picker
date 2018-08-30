@@ -42,7 +42,7 @@ import com.google.appinventor.components.runtime.ComponentContainer;
 import com.google.appinventor.components.runtime.EventDispatcher;
 import com.google.appinventor.components.runtime.util.ErrorMessages;
 
-@DesignerComponent(version = TaifunGoogleAccount.VERSION,
+@DesignerComponent(version = GoogleAccountPicker.VERSION,
     description = "A Simple Google Account Picker for users to sign in using Google Account",
     category = ComponentCategory.EXTENSION,
     nonVisible = true,
@@ -50,21 +50,21 @@ import com.google.appinventor.components.runtime.util.ErrorMessages;
 @SimpleObject(external = true)
 @UsesLibraries(libraries = "play-services-auth-9.6.1.jar, play-services-auth-base-9.6.1.jar")
 
-public class TaifunGoogleAccount extends AndroidNonvisibleComponent implements Component, ActivityResultListener {
+public class GoogleAccountPicker extends AndroidNonvisibleComponent implements Component, ActivityResultListener {
 
   public static final int VERSION = 1;
   private ComponentContainer container;
   private Context context;
-  private static final String LOG_TAG = "TaifunGoogleAccount";
+  private static final String LOG_TAG = "GoogleAccountPicker";
   private int requestCode = 0;
   private final int RESULT_OK = -1;
 
 
-  public TaifunGoogleAccount(ComponentContainer container) {
+  public GoogleAccountPicker(ComponentContainer container) {
     super(container.$form());
     this.container = container;
     context = (Context) container.$context();
-    Log.d(LOG_TAG, "TaifunAM Created" );
+    Log.d(LOG_TAG, "GoogleAccountPicker Created" );
   }
 
 
